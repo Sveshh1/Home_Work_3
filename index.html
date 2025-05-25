@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AR Домашнє завдання</title>
+    <!-- Потрібні бібліотеки -->
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://unpkg.com/aframe-msdf-text-component/dist/aframe-msdf-text-component.min.js"></script>
+
+    <style>
+      #loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="loader">Підготувала: Анастасія Свєшнікова</div>
+
+    <!-- AR сцена -->
+    <a-scene embedded arjs>
+      <a-assets>
+        <a-asset-item id="font-json" src="assets/font.json"></a-asset-item>
+        <img id="font-png" src="assets/font.png" crossorigin="anonymous">
+        <a-asset-item id="model" src="assets/model.glb" response-type="arraybuffer"></a-asset-item>
+      </a-assets>
+
+      <!-- AR маркер -->
+      <a-marker preset="hiro">
+
+        <!-- Текст -->
+        <a-entity 
+          msdf-text="font: #font-json; atlas: #font-png; text: Анастасія"
+          position="0 2 0"
+          scale="1 1 1"
+          material="color: white"
+          align="center">
+        </a-entity>
+
+        <!-- Фігури -->
+        <a-sphere position="-1 1 0" radius="0.5" color="#C71585"
+                  animation="property: material.color; from: #C71585; to: #ff0000; dur: 3000; loop: true">
+        </a-sphere>
+
+        <a-box position="0 1 0" depth="1" height="1" width="1" color="#D2691E"
+               animation="property: rotation; to: 0 360 0; loop: true; dur: 5000">
+        </a-box>
+
+        <a-cylinder position="1 1 0" radius="0.3" height="1.5" color="#00BFFF"
+                    animation="property: scale; from: 1 1 1; to: 1.5 1.5 1.5; dir: alternate; dur: 4000; loop: true">
+        </a-cylinder>
+
+        <!-- 3D-модель бджоли -->
+        <a-entity
+          gltf-model="#model"
+          position="0 0.5 -1"
+          scale="0.5 0.5 0.5"
+          animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+          animation__fly="property: position; from: 0 0.5 -1; to: 0 1.5 -1; dir: alternate; dur: 4000; loop: true">
+        </a-entity>
+
+      </a-marker>
+
+      <a-entity camera></a-entity>
+    </a-scene>
+
+    <!-- Показати сцену через 3 секунди -->
+    <script>
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          document.getElementById('loader').style.display = 'none';
+        }, 3000);
+      });
+    </script>
+  </body>
+</html>
