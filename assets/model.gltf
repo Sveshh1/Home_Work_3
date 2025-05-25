@@ -1,0 +1,418 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "gryffindor_boys_hogwarts_uniform_harry_potter_1001",
+            "translation" : [
+                -0.162328839302063,
+                0,
+                0.5121297836303711
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "gryffindor_boys_hogwarts_uniform_harry_potter_1002",
+            "translation" : [
+                -0.162328839302063,
+                0,
+                0.5121297836303711
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "gryffindor_boys_hogwarts_uniform_harry_potter_1003",
+            "translation" : [
+                -0.162328839302063,
+                0,
+                0.5121297836303711
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2
+            ],
+            "name" : "boys_hogwarts_uniform_harry_potter_gryffindor_grp"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "gryffindor_boys_hogwarts_uniform_harry_potter_1001_mat.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "gryffindor_boys_hogwarts_uniform_harry_potter_1002_mat.001",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 5
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "gryffindor_boys_hogwarts_uniform_harry_potter_1003_mat.001",
+            "normalTexture" : {
+                "index" : 6
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 8
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "TEXCOORD_0" : 5,
+                        "NORMAL" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Mesh.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "TEXCOORD_0" : 9,
+                        "NORMAL" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1001_norm",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1001_norm.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1001_bcolor",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1001_bcolor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1001_metal-Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1001_rough",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1001_metal-Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1001_rough.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1002_norm",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1002_norm.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1002_bcolor",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1002_bcolor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1002_metal-Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1002_rough",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1002_metal-Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1002_rough.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1003_norm",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1003_norm.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1003_bcolor",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1003_bcolor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1003_metal-Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1003_rough",
+            "uri" : "Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1003_metal-Gryffindor_Boys_Hogwarts_Uniform_Harry_Potter_1003_rough.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 56188,
+            "max" : [
+                58.722713470458984,
+                151.971923828125,
+                13.866840362548828
+            ],
+            "min" : [
+                -58.39805603027344,
+                83.07862854003906,
+                -15.675554275512695
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 56188,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 56188,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 84252,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 25074,
+            "max" : [
+                19.188339233398438,
+                149.89218139648438,
+                14.935592651367188
+            ],
+            "min" : [
+                -19.00255012512207,
+                94.06476593017578,
+                -15.95985221862793
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 25074,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 25074,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 37602,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 36496,
+            "max" : [
+                25.38346290588379,
+                102.85233306884766,
+                13.557507514953613
+            ],
+            "min" : [
+                -25.383460998535156,
+                4.76837158203125e-07,
+                -13.557507514953613
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 36496,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 36496,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 54720,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 674256,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 449504,
+            "byteOffset" : 674256,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 674256,
+            "byteOffset" : 1123760,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 168504,
+            "byteOffset" : 1798016,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 300888,
+            "byteOffset" : 1966520,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 200592,
+            "byteOffset" : 2267408,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 300888,
+            "byteOffset" : 2468000,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 75204,
+            "byteOffset" : 2768888,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 437952,
+            "byteOffset" : 2844092,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 291968,
+            "byteOffset" : 3282044,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 437952,
+            "byteOffset" : 3574012,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 109440,
+            "byteOffset" : 4011964,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4121404,
+            "uri" : "boys_hogwarts_uniform_harry_potter_gryffindor.bin"
+        }
+    ]
+}
